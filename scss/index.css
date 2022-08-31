@@ -1,0 +1,106 @@
+body .container-box .navigation {
+  padding: 0.3em;
+  position: relative;
+}
+body .container-box .navigation ul {
+  padding: 1em;
+  text-align: center;
+}
+body .container-box .navigation ul a {
+  text-decoration: none;
+  color: black;
+}
+body .container-box .navigation ul li {
+  padding: 0.5em;
+  font-size: 100%;
+  font-weight: bold;
+  text-transform: uppercase;
+  list-style: none;
+  display: inline;
+  margin: 1%;
+  z-index: 0;
+}
+body .container-box .navigation ul li :hover {
+  z-index: 1;
+}
+body .container-box .navigation ul li img {
+  width: 5%;
+  float: left;
+  transform: translateY(-35%);
+}
+body .container-box .image-package {
+  display: flex;
+  width: 100%;
+}
+body .container-box .image-package #gallery #images {
+  display: flex;
+}
+body .container-box .image-package #gallery #images #slides {
+  margin: 0.3%;
+  padding: 1em;
+}
+body .container-box .image-package #gallery #images #slides :hover {
+  z-index: -1;
+  transition: 1s;
+  padding: 0.5em;
+}
+body .container-box .image-package #gallery #images #slides a {
+  text-decoration: none;
+}
+body .container-box .image-package #gallery #images #slides img {
+  margin: 5%;
+  width: 100%;
+}
+body .container-box .image-package #gallery #images #slides h1 {
+  text-align: center;
+  margin: 1%;
+  text-transform: uppercase;
+  font-size: 80%;
+  color: grey;
+}
+body .container-box .image-package .social {
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  width: 15%;
+}
+body .container-box .image-package .social ul {
+  transform: translateY(80%);
+  text-align: center;
+  list-style: none;
+}
+body .container-box .image-package .social ul a {
+  text-decoration: none;
+}
+body .container-box .image-package .social ul li {
+  margin: 2%;
+  padding: 1em;
+}
+body .container-box .image-package .social ul li :hover {
+  text-align: center;
+  background: gey;
+  transition: 2s;
+}
+body .container-box footer {
+  position: relative;
+  margin: 1%;
+}
+body .container-box footer .box-1 ul {
+  text-align: center;
+}
+body .container-box footer .box-1 ul a {
+  color: black;
+  text-decoration: none;
+}
+body .container-box footer .box-1 ul li {
+  list-style: none;
+  display: inline;
+  margin: 1%;
+  padding: 1em;
+  text-transform: uppercase;
+  font-size: 100%;
+}
+body .container-box footer .box-1 ul li #left {
+  float: left;
+}/*# sourceMappingURL=index.css.map */
